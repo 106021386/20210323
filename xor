@@ -2,7 +2,7 @@ import sys
 
 
 class Crypt:
-    def __int__ (self, key):
+    def __init__(self, key):
         self.key = key
         
     def encrypt(self, msg):
